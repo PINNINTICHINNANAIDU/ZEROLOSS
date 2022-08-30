@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/ZLBack.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(ZLBack.jpg);
     background-position :center ;
     background-size: cover;
     position:relative;
@@ -207,168 +207,77 @@ h3{
 }
 
 /*-----------------------footer---------------*/
-.footer{
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-    font-weight: 600;
+.txt{
+    background-color: #080808;
+    z-index: 3;
+    color: #f7f0f5;
+    padding: 70px;
+    padding-top: 10px;
+    display: flex;
+    
+}
+.txt1 h1{
+    font-size: 40px;
+    font-weight:600;
 }
 
-.order{
-    display: flex;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
-   text-align: justify;
-   align-items:center;
-  
-   }
-    
-.icons {
-    width: 25px;
-    height: 25px;
-   padding-left: 5%;
-   padding-right:5%;
-   align-items: center;
-    text-align: center;
+.txt1 img{
+        width: 20px;
+        height: 20px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 32px;
+        margin:3px;
+        padding: 0;
 }
-.footer {
-    width: 1512px;
-    height: 386px;
-    flex-grow: 0;
-    padding: 51px 0 0;
-    background-color: #131313;
-  }
-  .footerhead {
-    padding-left: 100px;
-    width: 110px;
-    height: 29px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
-  .Adress{
-    padding-left: 100px;
-    height: 110px;
-    flex-grow: 1;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: rgb(19, 158, 30);
-  }
-  .social{
-    width: 168.9px;
-    height: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 32px;
-    margin: 16px 420.1px 24px 100px;
+.txt1 p1{
+    margin: 5px;
+    font-size: 20px;
+    font-weight:600;
+}
+.txt2{
+    margin-left: 280px;
+    margin-top: 32px;
+}
+.txt2 h{
+    font-size: 25px;
+    font-weight:600;
+}
+
+.txt2 ul{
     padding: 0;
-  }
-  .supporthelpgmailcom {
-    
-    padding-right: 1213px;
-    width: 174px;
-    height: 17px;
-    margin: 6.3px 390px 8px 125px;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
-  .copyright {
-    width: 1512px;
-    height: 39px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 39px 0 0;
-    padding: 10px 100px;
-    background-color: #fff;
-  }
-  .Copyright-mark-2022-32 {
-    padding-left: 652.5px;
-    padding-right: 652.5px;
-    width: 207px;
-    height: 19px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: var(--text);
-  }
-  .Group-552 {
-    padding-left: 689px;
-    padding-right: 776px; 
-    width: 97px;
-    height: 225px;
-    margin: 0 64px 15px 169px;
-  }
-  .Content {
-    width: 96px;
-    height: 29px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
-  .Button-Text {
-    width: 97px;
-    height: 39px;
-    flex-grow: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin: 16px 0 8px;
-    padding: 10px 0;
-  }
-  .button {
-    width: 71px;
-    height: 19px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    
-  }
- .footerDetails{
-    display: flex;
- }
+    margin: 0;
+
+}
+
+.txt2 ul li{
+    padding: 10px;
+}
+
+
+.txt3{
+    margin-left: 100px;
+    margin-top: 32px;
+}
+.txt3 h{
+    font-size: 25px;
+    font-weight:600;
+}
+
+.txt3 ul{
+    padding: 0;
+    margin: 0;
+
+}
+
+.txt3 ul li{
+    padding: 10px;
+}
+
+.txt4{
+    background-color: #f7f0f5;
+    text-align: center;
+    font-size: 25px;
+    font-weight:600;
+}
